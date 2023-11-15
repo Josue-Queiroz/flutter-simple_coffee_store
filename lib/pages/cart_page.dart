@@ -54,7 +54,7 @@ class _CartPageState extends State<CartPage> {
                       onTap: (value.userCart.isNotEmpty) ? payNow : () {},
                       child: Container(
                         width: double.infinity,
-                        padding: EdgeInsets.all(25),
+                        padding: const EdgeInsets.all(25),
                         decoration: BoxDecoration(
                             color: Colors.brown,
                             borderRadius: BorderRadius.circular(12)),
